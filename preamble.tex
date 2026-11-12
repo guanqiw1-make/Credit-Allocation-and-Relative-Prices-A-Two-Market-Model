@@ -1,0 +1,39 @@
+\usepackage[margin=25.4mm]{geometry}
+\usepackage{amsmath,amsthm}
+\input{font_setup}
+\usepackage{microtype}
+\usepackage{graphicx,booktabs,tabularx,longtable,array}
+\usepackage[authoryear,round]{natbib}
+\setcitestyle{aysep={},citesep={;}}
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{.65em}{}
+\titleformat{\subsection}{\normalfont\large\itshape}{\thesubsection}{.65em}{}
+\titleformat{\paragraph}[runin]{\normalfont\itshape}{}{0pt}{}
+\titlespacing*{\paragraph}{1.2em}{1.25ex plus .4ex}{.65em}
+\usepackage{setspace}
+\setstretch{1.10}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[section]{placeins}
+\usepackage{xurl}
+\usepackage[hidelinks,breaklinks]{hyperref}
+\hypersetup{pdftitle={Credit Allocation, Expenditure Recycling and Relative Prices: A Two-Market Model},pdfauthor={}}
+\setlength{\emergencystretch}{2em}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt}
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\clubpenalty=10000
+\setlength{\textfloatsep}{16pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{corollary}[proposition]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[proposition]{Remark}
+\numberwithin{equation}{section}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\pos}[1]{\left[#1\right]_{+}}
+\newcommand{\logdiff}{\Delta\ln}
+\input{results/numbers}

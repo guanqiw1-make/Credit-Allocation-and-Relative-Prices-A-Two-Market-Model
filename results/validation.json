@@ -1,0 +1,36 @@
+{
+  "quarterly_share_history_max_error": 5.551115123125783e-16,
+  "quarterly_share_log_odds_gap_max_error": 1.609823385706477e-15,
+  "quarterly_net_ratio_log_gap_max_error": 5.413963548306366e-16,
+  "quarterly_sector_net_flow_log_gap_max_error": 5.40095312223654e-16,
+  "quantity_turnover_closure_max_error": 7.121039868884793e-16,
+  "quarterly_share_log_odds_observations": 1120,
+  "quarterly_net_ratio_defined_observations": 878,
+  "continuous_share_integral_max_error": 1.1102230246251565e-16,
+  "max_price_identity_residual": 6.112189747387031e-16,
+  "max_share_identity_residual": 2.314229537170309e-16,
+  "max_cumulative_price_identity_residual": 9.159339953157541e-16,
+  "minimum_free_deposits": 34.40900920141104,
+  "minimum_prefunding_slack": 31.809009210329577,
+  "credit_path_error": 7.105427357601002e-15,
+  "recycling_path_error": 4.440892098500626e-16,
+  "offsetting_net_flows_impact_log_gap_error": 8.326672684688674e-17,
+  "bank_optimizer_max_difference": 1.0592341397885896e-06,
+  "stationary_derivative_max_error": 1.3128009790364104e-09,
+  "binding_policy_derivative_error": 3.8674130564686493e-10,
+  "stationary_bank_lending": [
+    0.47500000000000003,
+    0.55
+  ],
+  "stationary_bank_error": 9.992007221626409e-16,
+  "long_horizon_matches_independent_stationary_root": true,
+  "tests_passed": true,
+  "slack_capacity_inheritance_price_difference": 0.0,
+  "versions": {
+    "python": "3.12.2",
+    "numpy": "2.1.1",
+    "scipy": "1.14.1",
+    "matplotlib": "3.9.2"
+  },
+  "method": "Deterministic quarterly recursion; bracketed scalar roots; independent SLSQP and analytic checks."
+}

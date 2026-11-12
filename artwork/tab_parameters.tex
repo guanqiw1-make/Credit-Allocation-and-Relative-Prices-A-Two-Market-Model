@@ -1,0 +1,41 @@
+\begingroup
+\def\ThisCaption{Illustrative quarterly parameters and normalisations}
+\ifdefined\SeparateArtwork
+\par\addvspace{0.65\baselineskip}\noindent\begin{minipage}{\linewidth}
+\captionsetup{type=table}
+\caption{\ThisCaption}
+\label{tab:parameters}
+\centering\small\itshape [Table \thetable\ near here]\par
+\end{minipage}\par\addvspace{0.65\baselineskip}
+\else
+\begin{table}[tbp]
+\centering
+\caption{\ThisCaption}
+\label{tab:parameters}
+\small
+\begin{tabularx}{\linewidth}{@{}l l X@{}}
+\toprule
+Symbol & Value & Interpretation\\
+\midrule
+$\bar L_F,\bar L_R$ & $0.4,\ 0.6$ & Reference gross originations\\
+$\delta_F,\delta_R$ & $0.025,\ 0.10$ & Quarterly principal amortisation fractions\\
+$e_F,e_R$ & $0.6,\ 1.0$ & Background purchase budgets\\
+$\rho,\mu$ & $0.6,\ 0.25$ & Receipt earmarking and quarterly buffer spending\\
+$\eta_F,\eta_R$ & $0.25,\ 1.0$ & Within-period transaction-supply elasticities\\
+$\omega,\nu$ & $0.12,\ 0.2$ & Supply-target adjustment and positive offset\\
+$\chi$ & $0.3$ or $1.5$ & Weak or strong supply-target response\\
+$i^{\mathrm{base}},i^{\mathrm{cut}}$ & $0.010,\ 0.005$ & Quarterly benchmark before and after a rate cut\\
+$m$ & $0.002$ & Funding-cost spread\\
+$k_F,k_R$ & $0.002,\ 0.003$ & Marginal servicing/risk-pricing costs\\
+$\alpha_F,\alpha_R$ & $0.022,\ 0.039$ & Inverse loan-demand intercepts\\
+$b_F,b_R$ & $0.010,\ 0.020$ & Inverse loan-demand slopes per lending unit\\
+$w_F,w_R$ & $0.5,\ 1.0$ & Weights on outstanding loans\\
+$K$ & $15$ or $100$ & Finite or ample risk-weighted capacity\\
+$M_{-1}$ & $40$ & Initial aggregate non-bank deposits\\
+$x$ & $0.10$ & Fixed-total reallocation towards $F$\\
+\bottomrule
+\end{tabularx}
+\caption*{Reference values implied by these inputs are $\bar E_F=A_F=1$, $\bar E_R=\bar A_R=2.2$, $H_{-1}=2.4$, $z_0=0$ and $P_{F,-1}=P_{R,-1}=1$. The fixed-total experiments bypass the bank choice and assume sufficient capacity. Bank experiments use $\chi=0.3$ unless stated otherwise.}
+\end{table}
+\fi
+\endgroup

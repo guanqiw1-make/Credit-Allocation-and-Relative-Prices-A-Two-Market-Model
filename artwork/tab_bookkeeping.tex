@@ -1,0 +1,30 @@
+\begingroup
+\def\ThisCaption{Monetary bookkeeping for the modelled operations}
+\ifdefined\SeparateArtwork
+\par\addvspace{0.65\baselineskip}\noindent\begin{minipage}{\linewidth}
+\captionsetup{type=table}
+\caption{\ThisCaption}
+\label{tab:bookkeeping}
+\centering\small\itshape [Table \thetable\ near here]\par
+\end{minipage}\par\addvspace{0.65\baselineskip}
+\else
+\begin{table}[hbp]
+\centering
+\caption{\ThisCaption}
+\label{tab:bookkeeping}
+\small
+\begin{tabularx}{\linewidth}{@{}l c c X@{}}
+\toprule
+Operation & $\Delta C$ & $\Delta M$ & Transfer or earmarking\\
+\midrule
+New loans & $+L_F+L_R$ & $+L_F+L_R$ & Borrowers receive matching deposits\\
+Principal repayment & $-\sum_j\delta_jC_{j,t-1}$ & $-\sum_j\delta_jC_{j,t-1}$ & Borrowers extinguish deposits and debt\\
+Existing-asset purchase & $0$ & $0$ & Buyer deposits pass to sellers\\
+Current output purchase & $0$ & $0$ & Purchaser deposits pass to producers\\
+Receipt earmarking & $0$ & $0$ & $\rho E_F$ moves into the buffer category\\
+Buffer expenditure & $0$ & $0$ & $\mu H_{t-1}$ moves from the buffer to producers\\
+\bottomrule
+\end{tabularx}
+\end{table}
+\fi
+\endgroup

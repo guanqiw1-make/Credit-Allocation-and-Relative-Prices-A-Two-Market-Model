@@ -1,0 +1,22 @@
+\documentclass[12pt,a4paper]{article}
+\input{preamble}
+\hypersetup{pdftitle={Figures and Tables: Credit Allocation, Expenditure Recycling and Relative Prices},pdfauthor={}}
+\begin{document}
+\let\FullPageFigure\figure
+\renewcommand{\figure}[1][]{\FullPageFigure[p]}
+\let\FullPageTable\table
+\renewcommand{\table}[1][]{\FullPageTable[p]}
+\input{artwork/fig_mechanism}
+\clearpage
+\input{artwork/fig_reallocation}
+\clearpage
+\input{artwork/fig_threshold}
+\clearpage
+\input{artwork/fig_bank}
+\clearpage
+\input{artwork/fig_inheritance}
+\clearpage
+\input{artwork/tab_parameters}
+\clearpage
+\input{artwork/tab_bookkeeping}
+\end{document}

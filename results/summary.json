@@ -1,0 +1,16 @@
+{
+  "impact_relative_log_percent": 9.950815166090646,
+  "weak_stationary_relative_log_percent": 6.409292477387855,
+  "strong_stationary_relative_log_percent": -11.359817989671797,
+  "strong_first_negative_relative_level_quarter": 10,
+  "finite_capacity_first_binding_quarter": 4,
+  "baseline_effective_elasticity_threshold": 0.7223587223587222,
+  "baseline_chi_threshold": 0.9631449631449631,
+  "rate_finite_final_relative_log_percent": 4.897120096865866,
+  "rate_ample_final_relative_log_percent": 13.647952001080071,
+  "weak_stationary_PF": 1.079230345298891,
+  "weak_stationary_PR": 1.0122293939776439,
+  "strong_stationary_PR": 1.2090637789802177,
+  "initial_stock_share": 0.7272727272727273,
+  "final_stock_share_limit": 0.8
+}
